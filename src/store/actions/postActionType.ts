@@ -1,0 +1,4 @@
+export const LOADING_POST = "[POSTS] LOADING POSTS";
+export const GET_POSTS = "[POSTS] GET POSTS";
+export const UPDATE_POST = "[POSTS] UPDATE POST";
+export const GET_POSTS_ERROR = "[POSTS] GET POSTS ERROR";
