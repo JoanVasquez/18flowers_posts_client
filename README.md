@@ -8,7 +8,7 @@ Run the next command in the root directory to install all of the dependencies
 
 # HOW TO RUN THE APP
 
-Run the next commands to run or to start testing the app
+Before running the client side app, it is necessary to run the server side. Run the next commands to run or to start testing the app
 
     * npm start
     * npm run test

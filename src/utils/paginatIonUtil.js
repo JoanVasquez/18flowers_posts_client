@@ -1,6 +1,6 @@
 import Paginator from "paginator";
 
-export const pagination = (currentPage, pageSize, dataSet) => {
+export const pagination = (currentPage, pageSize, dataSet = []) => {
   let paginator = new Paginator(pageSize, 5);
   let paginatorData = paginator.build(dataSet.length, currentPage);
 
