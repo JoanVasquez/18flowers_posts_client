@@ -9,7 +9,7 @@ const store = createStore(allReducers, applyMiddleware(thunk));
 beforeAll(() => {
   const post: Post = {
     id: 1,
-    userId: 2,
+    userId: 1,
     title: "test title",
     body: "test body",
   };

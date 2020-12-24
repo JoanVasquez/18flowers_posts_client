@@ -1,11 +1,16 @@
-import { createStore, applyMiddleware, compose } from "redux";
+import { createStore, applyMiddleware, compose, Store } from "redux";
 import thunk from "redux-thunk";
 import allReducers from "./reducers/allReducers";
 
-const composeEnhancers =
-  (window && (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose;
+declare global {
+  interface Window {
+    __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose;
+  }
+}
 
-const store = createStore(
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+const store: Store = createStore(
   allReducers,
   process.env.NODE_ENV === "production"
     ? applyMiddleware(thunk)

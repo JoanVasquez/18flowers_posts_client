@@ -33,7 +33,7 @@ export const updatePost = (post: Post): any => {
     postService
       .update(post)
       .then((data: any) => {
-        dispatch(actionCreator(UPDATE_POST, "payload")(data.success));
+        dispatch(actionCreator(UPDATE_POST, "payload")(data));
         dispatch(actionCreator(LOADING_POST, "payload")(false));
       })
       .catch((ex) => {
