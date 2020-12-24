@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/18flowers_posts_client/static/css/main.08489841.chunk.css",
+    "main.js": "/18flowers_posts_client/static/js/main.e5b3a4ce.chunk.js",
+    "main.js.map": "/18flowers_posts_client/static/js/main.e5b3a4ce.chunk.js.map",
+    "runtime-main.js": "/18flowers_posts_client/static/js/runtime-main.afe78216.js",
+    "runtime-main.js.map": "/18flowers_posts_client/static/js/runtime-main.afe78216.js.map",
+    "static/js/2.a8e85d8e.chunk.js": "/18flowers_posts_client/static/js/2.a8e85d8e.chunk.js",
+    "static/js/2.a8e85d8e.chunk.js.map": "/18flowers_posts_client/static/js/2.a8e85d8e.chunk.js.map",
+    "index.html": "/18flowers_posts_client/index.html",
+    "static/css/main.08489841.chunk.css.map": "/18flowers_posts_client/static/css/main.08489841.chunk.css.map",
+    "static/js/2.a8e85d8e.chunk.js.LICENSE.txt": "/18flowers_posts_client/static/js/2.a8e85d8e.chunk.js.LICENSE.txt",
+    "static/media/loading.600cf2d1.svg": "/18flowers_posts_client/static/media/loading.600cf2d1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afe78216.js",
+    "static/js/2.a8e85d8e.chunk.js",
+    "static/css/main.08489841.chunk.css",
+    "static/js/main.e5b3a4ce.chunk.js"
+  ]
+}
